@@ -1,6 +1,7 @@
 import FancyText from './FancyText';
 import InspirationGenerator from './InspirationGenerator';
 import Copyright from './Copyright';
+import CommentBtn from './CommentBtn';
 
 function App() {
   return (
@@ -9,6 +10,10 @@ function App() {
       <InspirationGenerator>
         <Copyright year={2004} />
       </InspirationGenerator>
+
+      <CommentBtn message='Nice Quote'>
+        Give comment
+      </CommentBtn>
     </>
   );
 }
